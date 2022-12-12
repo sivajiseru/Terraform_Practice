@@ -1,0 +1,5 @@
+region="us-east-1"
+instancetype="t2.micro"
+amiId="ami-0b0dcb5067f052a63"
+environment="Development-Environment"
+name="Dev-Server"
