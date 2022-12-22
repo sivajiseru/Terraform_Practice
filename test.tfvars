@@ -1,5 +1,0 @@
-region="us-east-1"
-instancetype="t2.micro"
-amiId="ami-0574da719dca65348"
-environment="Testing-Environment"
-name="Test-Server"
