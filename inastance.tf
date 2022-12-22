@@ -1,11 +1,13 @@
 resource "aws_instance" "this" {
-  ami          = var.amiId
-  instance_type = var.instancetype
+  ami          = "ami-0b0dcb5067f052a63"
+  instance_type = "t2.micro"
    
   tags = {
-    Name          = var.name
-    "Environment" = var.environment
-    "Region"      = var.region
+    Name          = "Dev-Server"
+    "Environment" = "Development-Environment"
+    "Region"      = "us-east-1"
+    
+  
   }
 
 }
